@@ -5,17 +5,17 @@ a = 5
 b = 10
 c = 7
 
-# modify values using compound arithmetic operators
+
 a += 3
 b *= 2
 c %= 4
 
-# calculate the square root of the sum of their squares
+
 result = math.sqrt(a**2 + b**2 + c**2)
 print("the value of a:", a)
 print("the value of b:", b)
 print("the value of c:", c)
-# print the final result rounded to 2 decimal places
+
 print(f"the square of the sum of their squares: {result:.2f}")
 
 # Question 2: Complex Conditional Evaluation
